@@ -193,5 +193,21 @@ img {
 }
 
 .btn-enviar:hover {
-  background-color: #e05555;
+  background-color: #d78a33;
+}
+.video-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #d78a33;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sushi-video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
