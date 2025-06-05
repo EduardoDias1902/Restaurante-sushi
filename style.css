@@ -89,7 +89,7 @@ img {
 .contemCombo{
   padding-left: 100px;
   font-size: 25px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   
 }
 .combo h2{
@@ -120,4 +120,78 @@ img {
 }
 .pratoMenu a:hover{
   color:white
+}
+.restaurante{
+  width: 300px;
+  height:170px
+}
+.contato{
+  text-align: center;
+}
+.contato {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.contato-grid {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contato-grid h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+.form-contato .form-group {
+  margin-bottom: 20px;
+}
+
+.form-contato label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-contato input,
+.form-contato select,
+.form-contato textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-contato input:focus,
+.form-contato select:focus,
+.form-contato textarea:focus {
+  border-color: #d78a33;
+  outline: none;
+}
+
+.btn-enviar {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background-color: #d78a33;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #e05555;
 }
